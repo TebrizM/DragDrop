@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.dragdropcontainer .dropContainer {
+    height: 250px;
+    width: 100%;
+    border: 1px solid;
+}
+
+img {
+    width: 20%;
+}
+
+.right-side {
+    margin: 2vh;
+    gap: 2px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side select {
+    width: 490px;
+}
+
+.left-side {
+    float: left;
+    margin: 2vh;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side select {
+    width: 485px;
+}
+
+.right-side label {
+    width: 485px;
+}
+
+.left-side label {
+    width: 485px;
+}
+
+.right-side .form-control {
+    width: 490px;
+    position: absolute;
+    bottom: 64%;
+    right: 17%;
+}
+
+.col-lg-6 {
+    width: 100%!important;
+}
+
+.col-lg-4 .card {
+    font-family: 'Syncopate', sans-serif;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.418);
+    transition: all 0.1s linear;
+}
+
+.col-lg-4 .card:hover {
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.767);
+}
+
+.col-lg-4 .card .card-info .year {
+    position: absolute;
+    bottom: 146px;
+    left: 80px;
+}
+
+.col-lg-4 .card .card-info .price {
+    position: absolute;
+    bottom: 86px;
+    left: 80px;
+}
+.col-lg-4 .card .card-info .km{
+    position: absolute;
+    left: 33%;
+    bottom: 7%;
+}
+.col-lg-4 .card .card-info .engine{
+    position: absolute;
+    left: 62%;
+    bottom: 7%;
+}
+
+.col-lg-4 .card .card-info p {
+    padding: 10px;
+}
+
+.col-lg-4 .card .card-image img {
+    background-repeat: no-repeat;
+    width: 100%;
+}
